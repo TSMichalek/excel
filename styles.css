@@ -2,18 +2,34 @@
     width: fit-content;
     align-content: center;
     margin: auto;
+    margin-top: 20px;
     color: blue;
     border-style: solid;
     border-width: 5px;
     border-color: blue;
     padding: 20px;
+    background-color: white;
     
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    background-color: tan;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding: 5px;
+    margin-bottom: 40px;
 }
 
 #mainDiv{
     margin: auto;
     width: fit-content;
-    padding: 30px;
+    padding: 10px;
 }
 
 h5, h2, h4 {
@@ -33,25 +49,25 @@ button {
 }
 
 .scrolling-text {
-    width: 100%;
+    width: 180%;
     overflow: hidden;
     white-space: nowrap;
     box-sizing: content-box;
-    animation: scroll-right 6s linear infinite;
+    animation: scroll-right 10s linear infinite;
 }
 
 @keyframes scroll-right {
-    0%   { transform: translateX(-7%); }
+    0%   { transform: translateX(-40%); }
     100% { transform: translateX(100%); }
 }
 
 th, td {
-    border: 2px solid rgb(119, 152, 172);
+    border: 2px solid rgb(139, 74, 0);
 }
 
 table {
-    border: 5px solid darkcyan;
-    background-color: rgb(143, 211, 188);
+    border: 5px solid rgb(82, 73, 56);
+    background-color: rgb(184, 99, 30);
     width: fit-content;
     align-content: center;
     margin: auto;
