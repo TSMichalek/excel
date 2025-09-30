@@ -1,0 +1,58 @@
+.title {
+    width: fit-content;
+    align-content: center;
+    margin: auto;
+    color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    padding: 20px;
+    
+}
+
+#mainDiv{
+    margin: auto;
+    width: fit-content;
+    padding: 30px;
+}
+
+h5, h2, h4 {
+    margin: auto;
+    width: fit-content;
+    padding: 5px;
+}
+
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+.scrolling-text {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: content-box;
+    animation: scroll-right 6s linear infinite;
+}
+
+@keyframes scroll-right {
+    0%   { transform: translateX(-7%); }
+    100% { transform: translateX(100%); }
+}
+
+th, td {
+    border: 2px solid rgb(119, 152, 172);
+}
+
+table {
+    border: 5px solid darkcyan;
+    background-color: rgb(143, 211, 188);
+    width: fit-content;
+    align-content: center;
+    margin: auto;
+}
