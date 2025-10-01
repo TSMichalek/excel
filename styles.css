@@ -16,6 +16,12 @@ html {
     background-color: white;
 }
 
+.excel {
+    margin: auto;
+    display: block;
+    width: 90%;
+}
+
 body {
     background-color: tan;
     display: block;
